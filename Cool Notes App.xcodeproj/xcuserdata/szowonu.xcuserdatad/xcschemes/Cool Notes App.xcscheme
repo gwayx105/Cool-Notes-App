@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD0F7DFF1D3E9BAF000638F3"
+               BuildableName = "Cool Notes App.app"
+               BlueprintName = "Cool Notes App"
+               ReferencedContainer = "container:Cool Notes App.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD0F7E131D3E9BAF000638F3"
+               BuildableName = "Cool Notes AppTests.xctest"
+               BlueprintName = "Cool Notes AppTests"
+               ReferencedContainer = "container:Cool Notes App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD0F7E1E1D3E9BAF000638F3"
+               BuildableName = "Cool Notes AppUITests.xctest"
+               BlueprintName = "Cool Notes AppUITests"
+               ReferencedContainer = "container:Cool Notes App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FD0F7DFF1D3E9BAF000638F3"
+            BuildableName = "Cool Notes App.app"
+            BlueprintName = "Cool Notes App"
+            ReferencedContainer = "container:Cool Notes App.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FD0F7DFF1D3E9BAF000638F3"
+            BuildableName = "Cool Notes App.app"
+            BlueprintName = "Cool Notes App"
+            ReferencedContainer = "container:Cool Notes App.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FD0F7DFF1D3E9BAF000638F3"
+            BuildableName = "Cool Notes App.app"
+            BlueprintName = "Cool Notes App"
+            ReferencedContainer = "container:Cool Notes App.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

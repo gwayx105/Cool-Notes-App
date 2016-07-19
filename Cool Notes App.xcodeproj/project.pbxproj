@@ -14,6 +14,7 @@
 		FD0F7E0E1D3E9BAF000638F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0F7E0C1D3E9BAF000638F3 /* LaunchScreen.storyboard */; };
 		FD0F7E191D3E9BAF000638F3 /* Cool_Notes_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F7E181D3E9BAF000638F3 /* Cool_Notes_AppTests.swift */; };
 		FD0F7E241D3E9BAF000638F3 /* Cool_Notes_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F7E231D3E9BAF000638F3 /* Cool_Notes_AppUITests.swift */; };
+		FD0F7E331D3E9BE1000638F3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD0F7E311D3E9BE1000638F3 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FD0F7E1F1D3E9BAF000638F3 /* Cool Notes AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool Notes AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0F7E231D3E9BAF000638F3 /* Cool_Notes_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_Notes_AppUITests.swift; sourceTree = "<group>"; };
 		FD0F7E251D3E9BAF000638F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0F7E321D3E9BE1000638F3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		FD0F7DF71D3E9BAF000638F3 = {
 			isa = PBXGroup;
 			children = (
+				FD0F7E311D3E9BE1000638F3 /* Model.xcdatamodeld */,
 				FD0F7E021D3E9BAF000638F3 /* Cool Notes App */,
 				FD0F7E171D3E9BAF000638F3 /* Cool Notes AppTests */,
 				FD0F7E221D3E9BAF000638F3 /* Cool Notes AppUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				FD0F7E061D3E9BAF000638F3 /* ViewController.swift in Sources */,
 				FD0F7E041D3E9BAF000638F3 /* AppDelegate.swift in Sources */,
+				FD0F7E331D3E9BE1000638F3 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sylvester-zowonu.Cool-Notes-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sylvester-zowonu.Cool-Notes-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -500,6 +506,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD0F7E311D3E9BE1000638F3 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD0F7E321D3E9BE1000638F3 /* Model.xcdatamodel */,
+			);
+			currentVersion = FD0F7E321D3E9BE1000638F3 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FD0F7DF81D3E9BAF000638F3 /* Project object */;
 }
